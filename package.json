@@ -3,12 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {"sampletest": "npx playwright test helloworld.spec.js --project=chromium"},
+  "scripts": {
+    "sampletest": "npx playwright test helloworld.spec.js --project=chromium"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.48.1",
-    "@types/node": "^22.7.9"
+    "@types/node": "^22.7.9",
+    "allure-playwright": "^3.0.5"
+  },
+  "dependencies": {
+    "@estruyf/github-actions-reporter": "^1.9.2"
   }
 }
